@@ -1,19 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* GLOBAL STYLES - Start */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+}
+/* GLOBAL STYLES - End */
+
+/* MENU STYLES - Start */
 .navbar {
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
-    color: #725C5C;
-    display: flex;
-    flex-direction: column;
-    margin-left: 24px;
-    width: 220px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 1.1875rem;
+  color: #725c5c;
+  flex-direction: column;
+  width: 13.75rem;
+  border-right: 1px solid rgb(231, 231, 231);
+  box-shadow: 0 0 0.625rem rgba(231, 231, 231);
+  height: 106.3125rem;
 }
 
 .navbar h1 {
-    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
-    height: 68px;
-    align-items: center;
-    justify-content: center;
+  background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.1875rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 4.25rem;
+  color: #fff;
 }
+
+.navbar p {
+  border-bottom: 1px solid #e7e7e7;
+  padding: 0.40625rem 1.5rem;
+}
+
+.navbar p:nth-of-type(5) {
+  background-repeat: no-repeat;
+  padding-left: 1.875rem;
+  background-size: 5px 100%;
+  background-image: -webkit-linear-gradient(top, #ffb455 0%, #ed7839 100%),
+    -webkit-linear-gradient(top, #ffb455 0%, #ed7839 0%);
+  background-color: #fdf1eb;
+}
+/* MENU STYLES - End */
+
+/* HEADER STYLES - Start */
+.header {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #fdf1eb;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #725c5c;
+  padding: 0.3125rem 2.25rem;
+}
+
+.header p:nth-of-type(2) {
+  font-size: 1.375rem;
+  line-height: 1.625rem;
+}
+
+#content {
+  width: 40rem;
+}
+
+#idiomaSelect {
+  width: 6.0625rem;
+  height: 2.125rem;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #fdf1eb;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px 50px;
+}
+
+.login {
+  font-size: 0.875rem;
+  line-height: 1.09375rem;
+}
+
+.login p:nth-of-type(2) {
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+}
+
+#pessoa {
+  border-radius: 50%;
+}
+/* HEADER STYLES - End */
